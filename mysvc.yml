@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: service 
+metadata: 
+   name: vertex-svc
+   labels:
+     app: myvertexapp
+   spec: 
+     type: nodepot
+     ports:
+       - port: 80
+         nodeport: 3001
+         protocol: TCP 
+   selectror:
+         app: mynginx
+                
