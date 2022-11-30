@@ -11,5 +11,4 @@ metadata:
          nodeport: 3001
          protocol: TCP 
    selectror:
-         app: mynginx
-                
+         app: myvertexapp

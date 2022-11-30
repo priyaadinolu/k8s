@@ -5,7 +5,7 @@ metadata:
 spec: 
     replicas: 3
     selector:
-      app: mynginx
+      app: myvertexapp
       version: 2.6.2
     template:
      metadata:
