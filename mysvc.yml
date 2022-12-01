@@ -5,7 +5,7 @@ metadata:
    labels:
      app: myvertexapp
    spec: 
-     type: nodepot
+     type: nodeport
      ports:
      - port: 80
        nodeport: 3001
