@@ -14,8 +14,8 @@ spec:
             version: 2.6.2
      spec:
        containers:
-          - name: mynginx
-            image: nginx
+          - name: myjava
+            image: priyas2180/myjavaimage14nov22:1 
             ports:
                - containerPort: 80     
 
