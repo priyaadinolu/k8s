@@ -7,8 +7,8 @@ metadata:
    spec: 
      type: nodepot
      ports:
-       - port: 80
-         nodeport: 3001
-         protocol: TCP 
-   selector:
+     - port: 80
+       nodeport: 3001
+       protocol: TCP 
+     selector:
          app: myvertexapp
