@@ -4,6 +4,7 @@ metadata:
    name: vertex-svc
    labels:
      app: myvertexapp
+     version: 2.6.1 
 spec: 
   type: NodePort
   ports:
