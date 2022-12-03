@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
          - name: myjava
-           image: priyas2180/myjavaimage21dec:2
+           image: priyas2180/myjavaimage21dec:6
            ports: 
             - containerPort: 8080      
