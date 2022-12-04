@@ -6,13 +6,13 @@ spec:
   replicas: 3
   selector: 
     app: myvertexapp
-    version: 2.6.2
+    version: 2.6.1
   template:
     metadata:
       name: complexpod
       labels:
         app: myvertexapp
-        version: 2.6.2
+        version: 2.6.1
     spec:
       containers:
          - name: myjava
