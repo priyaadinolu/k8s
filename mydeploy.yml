@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: deployment-container
-          image: priyas2180/myjavaimage08:2
+          image: priyas2180/myjavaimage06:2
           ports:
           - containerPort: 8080
