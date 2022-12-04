@@ -6,16 +6,16 @@ spec:
   replicas: 3
   selector: 
     app: myvertexapp
-    version: 2.6.1
+    version: 2.6.2
   template:
     metadata:
       name: complexpod
       labels:
         app: myvertexapp
-        version: 2.6.1
+        version: 2.6.2
     spec:
       containers:
          - name: myjava
-           image: priyas2180/myjavaimage06:1
+           image: priyas2180/myjavaimage06:2
            ports: 
             - containerPort: 8080      
